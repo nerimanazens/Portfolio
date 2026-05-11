@@ -1,7 +1,7 @@
 export default function MyPicture() {
     return (
-        <div>
-            <div className="rounded-full h-100 w-100 bg-black">Picture</div>
+        <div className="animated-bg p-1.5 rounded-full">
+            <div className="rounded-full h-95 w-95 bg-black">Picture</div>
         </div>
     )
 }

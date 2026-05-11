@@ -1,21 +1,5 @@
 @import "tailwindcss";
 
-.animated-text {
-  font-weight: bold;
-
-  background: linear-gradient(
-    270deg,
-    #00f5d4,
-    #00bbf9,
-    #00f5d4
-  );
-  background-size: 400% 400%;
-
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
-  animation: gradientShift 10s ease infinite;
-}
 
 @keyframes gradientShift {
   0% {
@@ -26,5 +10,23 @@
   }
   100% {
     background-position: 0% 50%;
+  }
+}
+
+.animated-text {
+  font-weight: bold;
+  background: linear-gradient(270deg, #00f5d4, #00bbf9, #00f5d4);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientShift 10s ease infinite;
+}
+
+@layer utilities {
+  .animated-bg {
+    background: linear-gradient(270deg, #00f5d4, #00bbf9, #9b5de5, #00f5d4);
+    background-size: 400% 400%;
+    box-shadow: 0 0 10px rgba(0, 245, 212, 0.5);
+    animation: gradientShift 6s ease infinite;
   }
 }
