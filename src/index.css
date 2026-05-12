@@ -1,3 +1,18 @@
+@theme {
+  --animate-slide: slide 4s ease-in-out infinite alternate;
+
+  @keyframes slide {
+    0% {
+      transform: translateX(-18.5vw);
+    }
+
+    100% {
+      transform: translateX(18vw);
+    }
+  }
+}
+
+
 @import "tailwindcss";
 
 
@@ -5,9 +20,11 @@
   0% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
+
   100% {
     background-position: 0% 50%;
   }
@@ -17,6 +34,7 @@
   font-weight: bold;
   background: linear-gradient(270deg, #00f5d4, #00bbf9, #00f5d4);
   background-size: 400% 400%;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: gradientShift 10s ease infinite;
