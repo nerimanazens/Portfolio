@@ -1,7 +1,5 @@
-
 import './App.css'
-import DynamicHeader from './components/section-components/DynamicHeader'
-
+import AboutmeSection from './components/sections/AboutmeSection'
 import HeroSection from './components/sections/HeroSection'
 
 function App() {
@@ -9,7 +7,7 @@ function App() {
   return (
     <>
       <HeroSection />
-      <DynamicHeader header="<About />" />
+      <AboutmeSection />
     </>
   )
 }
