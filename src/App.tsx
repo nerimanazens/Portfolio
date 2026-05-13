@@ -1,6 +1,7 @@
 import './App.css'
 import AboutmeSection from './components/sections/AboutmeSection'
 import HeroSection from './components/sections/HeroSection'
+import SkillSection from './components/sections/SkillSection' 
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <HeroSection />
       <AboutmeSection />
+      <SkillSection />
     </>
   )
 }
