@@ -1,3 +1,6 @@
+import tetris from "../assets/tetris.png"
+import airbnb from "../assets/airbnb.png"
+
 const repositories = [
   {
     name: "Weather-App",
@@ -21,32 +24,23 @@ const repositories = [
     name: "Airbnb",
     description: "",
     techStack: ["html", "css", "js"],
+    image: airbnb,
     link: "https://github.com/nerimanazens/Airbnb"
+
   },
   {
     name: "Tetris-Game",
     description: "A simple Tetris game implementation built with JavaScript. Includes classic block mechanics, score tracking, and keyboard controls.",
     techStack: ["html", "css", "js"],
+    image: tetris,
     link: "https://github.com/nerimanazens/Tetris-Game"
-  },
-  {
-    name: "first_tailwind_project",
-    description: "It is my first expreience with tailwindcss.",
-    techStack: ["html", "css", "js"],
-    link: "https://github.com/nerimanazens/first_tailwind_project"
   },
   {
     name: "netflix_streaming",
     description: "",
-    techStack: ["html", "css", "ts"],
+    techStack: ["next", "css", "typescript"],
     link: "https://github.com/nerimanazens/netflix_streaming"
   },
-  {
-    name: "nerimanazens",
-    description: "",
-    techStack: ["html", "css", "js"],
-    link: "https://github.com/nerimanazens/nerimanazens"
-  }
 ];
 
 export default repositories;

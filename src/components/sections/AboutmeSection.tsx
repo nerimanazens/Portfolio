@@ -3,7 +3,7 @@ import DynamicHeader from "../section-components/DynamicHeader"
 
 export default function AboutmeSection() {
     return (
-        <div>
+        <section>
             <DynamicHeader header="<About />" />
             <motion.div 
             initial={{ opacity: 0, y: 40 }}
@@ -25,6 +25,6 @@ export default function AboutmeSection() {
 
 
             </motion.div>
-        </div>
+        </section>
     )
 }
