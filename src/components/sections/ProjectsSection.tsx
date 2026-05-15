@@ -1,6 +1,7 @@
 import DynamicHeader from "../section-components/DynamicHeader";
 import ProjectCard from "../section-components/ProjectCard";
 import repositories from "../../data/projects";
+import {icons} from "../../data/icons";
 
 export default function ProjectsSection() {
     return (
@@ -18,6 +19,10 @@ export default function ProjectsSection() {
                     />
                 ))}
             </div>
+            <a href="https://github.com/nerimanazens" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center bg-[#3D4046] text-[#e4e9f1] border font-bold  w-fit py-1 px-4 m-4 rounded-lg hover:bg-[#0F99A1] transition-colors duration-300 mx-auto mt-4">
+                < icons.github.icon className="mr-2" />
+                For more projects, visit my GitHub
+            </a>
         </section>
     )
 }
