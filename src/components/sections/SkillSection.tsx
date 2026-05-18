@@ -9,7 +9,7 @@ export default function SkillSection() {
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="mt-15"
+            className="mt-15 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
         >
             <DynamicHeader header="<Skills />" />
             <SkillCardFrontBack />

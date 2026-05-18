@@ -8,12 +8,12 @@ import ProjectsSection from './components/sections/ProjectsSection'
 function App() {
 
   return (
-    <>
+    <main className="w-full overflow-x-hidden pb-16">
       <HeroSection />
       <AboutmeSection />
       <SkillSection />
       <ProjectsSection />
-    </>
+    </main>
   )
 }
 

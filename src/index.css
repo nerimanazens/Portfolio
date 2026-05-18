@@ -48,3 +48,7 @@
     animation: gradientShift 6s ease infinite;
   }
 }
+
+body {
+  overflow-x: hidden;
+}
